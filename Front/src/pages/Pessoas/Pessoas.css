@@ -1,0 +1,27 @@
+.pagina {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.pagina h2 { margin-bottom: 16px; }
+
+.formulario { display: flex; gap: 8px; margin-bottom: 16px; }
+.formulario input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.erro { color: #c0392b; margin-bottom: 12px; }
+
+.tabela { width: 100%; border-collapse: collapse; }
+.tabela th, .tabela td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+.tabela th { background: #f0f0f0; }
+.acoes { display: flex; gap: 8px; }

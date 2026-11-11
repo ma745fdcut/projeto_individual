@@ -1,0 +1,13 @@
+.botao {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.botao:hover { opacity: 0.8; }
+.botao-perigo { background-color: #c0392b; }
+.botao-sucesso { background-color: #27ae60; }
+.botao-secundario { background-color: #7f8c8d; }
